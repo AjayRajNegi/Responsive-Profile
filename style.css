@@ -1,0 +1,286 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: arial;
+}
+body {
+  background: #f7f7f7;
+}
+/* Navbar */
+.navbar {
+  display: flex;
+  background: white;
+  color: black;
+  height: 50px;
+  align-items: center;
+  box-shadow: 0px 1px 10px gray;
+}
+
+/* left */
+.left-nav {
+  width: 25%;
+  display: flex;
+  height: 80%;
+  align-items: center;
+  padding: 0 2%;
+}
+
+.left-nav li {
+  list-style: none;
+  padding: 0 1.75%;
+}
+.left-nav li a {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+}
+.left-nav img {
+  width: 4vh;
+  height: 4vh;
+  border: 5px solid #66d066;
+  background: #66d066;
+  border-radius: 50px;
+}
+
+/* Right */
+.right-nav {
+  width: 75%;
+}
+.right-nav ul {
+  display: flex;
+  justify-content: end;
+}
+.right-nav ul li {
+  padding: 0 3%;
+  list-style: none;
+  justify-content: space-evenly;
+}
+.Home {
+  font-weight: 800;
+  font-size: 13px;
+  color: black;
+  text-decoration: none;
+}
+.Integration {
+  font-weight: 600;
+  font-size: 13px;
+  color: black;
+  text-decoration: none;
+}
+.Help {
+  font-weight: 700;
+  font-size: 13px;
+  color: black;
+  text-decoration: none;
+}
+.S {
+  padding: 2px 6px;
+  border: 2px solid gray;
+  color: white;
+  background: gray;
+  border-radius: 50px;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+/* Main Content */
+.main {
+  max-width: 75%;
+  margin: auto;
+  height: 60vh;
+  margin-top: 40px;
+}
+
+/* First line */
+.first {
+  height: 15%;
+  margin-bottom: 15px;
+  display: flex;
+  border-bottom: 0.25px solid black;
+  padding-bottom: 5px;
+  max-width: 100%;
+}
+.first-left {
+  width: 80%;
+  background: white;
+  display: flex;
+  align-items: center;
+}
+.circle {
+  margin-left: 1%;
+}
+.circle li {
+  list-style: none;
+  padding: 8px 10px;
+  border: 2px solid gray;
+  color: white;
+  background: gray;
+  border-radius: 50px;
+  font-size: 15px;
+  text-decoration: none;
+}
+.first-left ul {
+  padding-left: 1%;
+}
+.first-left ul li {
+  list-style: none;
+  font-weight: 600;
+  font-size: 12px;
+}
+.first-left ul li a {
+  color: #4c5bd7;
+}
+
+.first-right {
+  width: 20%;
+  background: white;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+.first-btn {
+  display: flex;
+  border: 2px solid #4c5bd7;
+  border-radius: 50px;
+  background: #4c5bd7;
+  align-items: center;
+}
+.first-right li {
+  list-style: none;
+  color: white;
+  padding: 4px 5px;
+}
+.plus {
+  font-size: 18px;
+  font-weight: 500;
+  //padding: 0 4px;
+}
+.create {
+  font-size: 11px;
+  font-weight: 500;
+  padding-right: 6px;
+}
+
+/* Second */
+.second {
+  height: 8%;
+  display: flex;
+}
+.recent {
+  width: 20%;
+  display: flex;
+  background: #3ba53b;
+  border: 2px solid #3ba53b;
+  border-radius: 50px;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  font-size: 12px;
+  color: white;
+}
+.scheduled {
+  width: 80%;
+  background: #8cec8c;
+  border: 2px solid #8cec8c;
+  border-radius: 50px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+  font-size: 12px;
+  color: black;
+  padding-left: 3%;
+}
+
+/* Third */
+.third {
+  margin-top: 25px;
+  display: flex;
+}
+.box1 {
+  width: 31%;
+  background: white;
+  margin-right: 4%;
+  box-shadow: 0px 1px 3px gray;
+  border-top: 4px solid green;
+  border-radius: 10px;
+}
+.meeting {
+  border-bottom: 1px solid black;
+  padding-bottom: 15px;
+}
+.gear {
+  display: flex;
+  justify-items: end;
+  margin: 10px 0;
+}
+.gear img {
+  height: 2vh;
+  width: 2vh;
+  margin-left: 93%;
+}
+.box1 ul {
+  margin-left: 5%;
+}
+.box1 ul li {
+  list-style: none;
+}
+.minutes {
+  list-style: none;
+  font-size: 12px;
+}
+.project {
+  list-style: none;
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+.view {
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 13px;
+  margin: 10px 0;
+  color: #4c5bd7;
+}
+.last {
+  display: flex;
+  align-items: center;
+  margin: 5px 0;
+}
+.last1 {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  color: #4c5bd7;
+  font-weight: bold;
+  font-size: 13px;
+}
+.last1 img {
+  height: 3vh;
+  width: 3vh;
+  margin: 0 3% 0 10%;
+}
+.last2 {
+  width: 50%;
+}
+.last2 button {
+  margin-left: 50%;
+  font-size: 12px;
+  font-weight: 600;
+  border: 1px solid blue;
+  border-radius: 50px;
+  padding: 4px 8px;
+  color: blue;
+}
+
+.box2 {
+  width: 31%;
+  margin-right: 4%;
+  border-top: 4px solid orange;
+}
+.box3 {
+  width: 31%;
+  border-top: 4px solid #4c5bd7;
+  margin-right: 0;
+}

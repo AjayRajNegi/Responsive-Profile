@@ -1,0 +1,69 @@
+@media only screen and (max-width: 930px) {
+  .second {
+    display: block;
+  }
+  .recent {
+    width: 40%;
+    margin-bottom: 5px;
+  }
+  .scheduled {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 930px) {
+  .second {
+    margin: 0 0 50px 0;
+  }
+  .third {
+    display: block;
+  }
+  .box1 {
+    width: 70%;
+    margin: auto;
+    margin-bottom: 20px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .left-nav {
+    padding: 0 6%;
+  }
+  .right-nav {
+    display: none;
+  }
+  .main {
+    max-width: 90%;
+    margin: auto;
+    margin-top: 40px;
+  }
+  .first-left {
+    background: #f7f7f7;
+  }
+  .first-right {
+    background: #f7f7f7;
+  }
+  .second {
+    display: flex;
+    margin: 20px 0 0 0;
+  }
+  .recent {
+    width: 40%;
+    border: 2px solid white;
+    border-bottom: 2px solid blue;
+    border-radius: 0;
+    background: white;
+    color: black;
+  }
+  .scheduled {
+    width: 60%;
+    border: 0;
+    background: #f7f7f7;
+  }
+  .box1 {
+    width: 100%;
+  }
+  .last2 button {
+    margin-left: 60%;
+  }
+}
